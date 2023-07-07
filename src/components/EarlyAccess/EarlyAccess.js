@@ -22,8 +22,8 @@ function App() {
     await setInput("");
     setChatLog(chatLogNew)
     //fetch response to the api combining the chat log array of messages and sending it as a message to localhost:3000 as a post
-    const messages = chatLogNew.map((message) => message.message). join("\n")
-    const data = chatLogNew.map((message) => message.message). join("\n")
+    // const messages = chatLogNew.map((message) => message.message). join("\n")
+    // const data = chatLogNew.map((message) => message.message). join("\n")
     // const response = await fetch("http://localhost:3080/",{
     //   method: "POST",
     //   headers: {
@@ -67,9 +67,9 @@ function App() {
 
 const ChatMessage = ({message}) =>{
   return(
-    <div className='chat-message ${message.user === "gpt" && "chatgpt"}'>
+    <div className='chat-message ${message.user==="gpt" && "chatgpt"}'>
             <div className='chat-message-center'>
-            <div className={`avatar ${message.user === "gpt" && "chatgpt"}`}>
+            <div className={`avatar ${message.user==="gpt" && "chatgpt"}`}>
               {message.user === "gpt" && <svg
     xmlns="http://www.w3.org/2000/svg"
     width={41}

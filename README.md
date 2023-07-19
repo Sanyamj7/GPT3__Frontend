@@ -1,3 +1,23 @@
+It is a ChatGpt3 based frontend project
+Click to get the tutorial of the project.[here](https://gpt-3-frontend-2a8693mie-sanyamj7.vercel.app/)
+## Installation
+
+### Setup
+- **Clone**
+
+      git clone https://github.com/Sanyamj7/Decentralised-Yield-Banking-System.git
+- **Node.js**
+Download Node.js from : https://nodejs.org/en/download/
+
+
+### Commands
+
+- Install necessarily Node.js packages
+
+      npm install
+- Deploy and run the front-end application
+
+      npm start
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
